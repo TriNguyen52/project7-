@@ -1,0 +1,51 @@
+.create-page {
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffdd57;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .crewmates-image {
+    width: 300px;
+    margin: 20px 0;
+  }
+  
+  .create-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .create-button:hover {
+    background-color: #45b963;
+  }
+
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  

@@ -1,0 +1,60 @@
+/* Navbar styling */
+.navbar {
+    background-color: #333; /* Dark background to match the side panel */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start;
+    color: #fff;
+    height: 100vh; /* Full height for sidebar */
+    position: fixed; /* Fixed to stay on the left side */
+    width: 150px; /* Expanded width to 150px */
+    top: 0;
+    left: 0;
+    box-sizing: border-box; /* Ensure padding doesn’t increase width */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+}
+
+/* Center the navigation links */
+.navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    width: 100%;
+}
+
+.navbar nav ul li {
+    margin: 20px 0; /* Spacing between each link */
+}
+
+/* Link styling */
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    display: block;
+    padding: 8px 0; /* Added padding for click area */
+}
+
+.navbar nav ul li a:hover {
+    color: #aaa; /* Lighten color on hover */
+}
+
+/* Image styling */
+.navbar img {
+    margin-top: auto; /* Push image to the bottom */
+    padding: 10px;
+    max-width: 100%; /* Ensure it fits within the sidebar */
+}
+
+/* Content area styling */
+.main-content {
+    margin-left: 150px; /* Shift content to the right of the navbar */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f4f4f4; /* Light background color */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}

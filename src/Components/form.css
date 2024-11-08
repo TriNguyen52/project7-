@@ -1,0 +1,43 @@
+/* Container for form elements (optional wrapper for alignment) */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px; /* Space between each input element */
+    margin: 20px;
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+  
+  /* Label styling */
+  .form-container label {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #dddddd;
+    margin-bottom: 5px;
+  }
+  
+  /* Text input and select styling */
+  .form-container input[type="text"],
+  .form-container select {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .form-container input[type="text"]:focus,
+  .form-container select:focus {
+    box-shadow: 0 0 5px rgba(0, 150, 255, 0.5); /* Add glow effect on focus */
+  }
+  
+  /* Placeholder option styling */
+  .form-container select option:first-child {
+    color: #888888; /* Gray color for the placeholder text */
+  }
+  

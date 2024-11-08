@@ -1,0 +1,75 @@
+.edit-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .edit-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #4caf50;
+  }
+  
+  .edit-image {
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .edit-subtitle {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ffd700;
+  }
+  
+  .edit-info {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #dcdcdc;
+    text-align: center;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .edit-update-button {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .edit-update-button:hover {
+    background-color: #45a049;
+  }
+  
+  .edit-delete-button {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .edit-delete-button:hover {
+    background-color: #e60000;
+  }
+  

@@ -1,0 +1,50 @@
+.gallery-page {
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    min-height: 100vh;
+  }
+  
+  .gallery-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffdd57;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .gallery-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 10px;
+    margin-left: 140px;
+  }
+  
+  .no-crewmates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .no-crewmates-text {
+    font-size: 2rem;
+    color: #a0a0a0;
+    margin-bottom: 20px;
+  }
+  
+  .create-button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .create-button:hover {
+    background-color: #ff7043;
+  }
+  
